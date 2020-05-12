@@ -45,7 +45,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(180deg, rgba(250,255,50,1) 5%, rgba(11,147,1,1) 80%);
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Windwaker';
     height: min-content;
 }
@@ -55,7 +55,7 @@ nav {
 }
 .barra-nav {
     display: inline-block;
-    margin: 0px 80px;
+    margin: 0px 70px;
 }
 .barra-nav a {
     color: inherit;
@@ -153,9 +153,11 @@ nav {
 }
 /**------------Este es el Footer----------------------------------**/
 
-#caja-comentarios {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 50%;
+footer {
+    font-family: 'Twilight';
+    text-align: center;
+}
+.link {
+    font-family: 'Windwaker';
+
 }
